@@ -1,22 +1,35 @@
-Task 3: Data Visualization
-This repository contains my BiStartX Internship Task 3 on Data Visualization. The project involves analyzing and visualizing data using Python libraries like Matplotlib, Seaborn, and Pandas to uncover patterns, trends, and insights.
+📊 Sales Data Visualization
+BiStartX Internship — Task 3
+
+This repository contains the code and analysis for Task 3 of my BiStartX Internship. The task involves analyzing and visualizing a real-world sales dataset using Python, Pandas, Matplotlib, and Seaborn to uncover insights into sales performance, customer behavior, and product trends.
 
 🚀 Project Overview
-The goal of this task is to perform exploratory data analysis (EDA) and create meaningful visualizations to communicate key insights from the dataset.
+The goal of this task is to:
+✅ Clean and preprocess the sales dataset
+✅ Perform exploratory data analysis (EDA)
+✅ Generate insightful visualizations using Seaborn and Matplotlib
+✅ Identify trends and patterns in sales data
 
-Key Objectives:
-Load and clean the dataset
-Perform statistical analysis
-Generate different types of plots and charts
-Identify trends and correlations
-Provide insights based on visual data
-🛠️ Tech Stack
-Programming Language: Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-📊 Visualizations Included
-Line Plot
-Bar Plot
-Heatmap
-Scatter Plot
-Histogram
-Pair Plot
+📂 Dataset Information
+The dataset contains 2,823 rows and 25 columns related to sales transactions.
+Key Columns:
+
+ORDERNUMBER – Unique order ID
+QUANTITYORDERED – Number of items ordered
+PRICEEACH – Price per item
+SALES – Total sales for the order
+ORDERDATE – Date of the order
+STATUS – Order status (e.g., Shipped, Cancelled)
+PRODUCTLINE – Type of product
+CUSTOMERNAME – Name of the customer
+COUNTRY – Customer’s country
+📊 Visualizations Created
+Top 10 Selling Products
+Sales by Territory
+Monthly Sales Trends
+Correlation Matrix
+🛠️ Technologies Used
+Python
+Pandas
+Seaborn
+Matplotlib
